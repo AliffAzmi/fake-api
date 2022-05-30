@@ -1,6 +1,10 @@
 {
   "User": {
     "name": { "string": {} },
-    "phone": { "string": {} }
+    "phone": { "string": {} },
+    "email": {
+      "regexp": "#[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
+    },
+    "nric": { "string": {} }
   }
 }
