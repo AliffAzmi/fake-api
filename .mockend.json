@@ -1,28 +1,35 @@
 {
-    "User": {
-        "name": {
-            "string": [
-                "Amy Winehouse",
-                "Amelia DeChart",
-                "Harrienath Pillay",
-                "Jayaseelan N.",
-                "John Doe",
-                "Joanne Chia",
-                "Tan Mei Li",
-                "Tengku Aishah Zaharah"
-            ]
-        },
-        "phone": {
-            "string": [
-                "012-345-6789",
-                "012-345-6789",
-                "012-345-6789",
-                "012-345-6789",
-                "012-345-6789",
-                "012-345-6789",
-                "012-345-6789",
-                "012-345-6789"
-            ]
-        }
+  "Post": {
+    "cover": {
+      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
+    },
+    "title": {
+      "loremWords": {
+        "minLength": 5,
+        "maxLength": 20
+      }
+    },
+    "body": {
+      "loremParagraphs": {
+        "minLength": 10,
+        "maxLength": 100
+      }
+    },
+    "tag": {
+      "string": [
+        "one",
+        "two",
+        "three"
+      ]
+    },
+    "isDraft": {
+      "boolean": {}
+    },
+    "createdAt": {
+      "dateTime": {
+        "min": "2010-01-01T00:00:00Z",
+        "max": "2020-12-31T23:59:59Z"
+      }
     }
+  }
 }
