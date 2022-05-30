@@ -1,10 +1,76 @@
 {
-  "User": {
-    "name": { "string": ["Amy Winehouse", "Amelia DeChart", "Harrienath Pillay", "Jayaseelan N.", "John Doe", "Joanne Chia", "Tan Mei Li", "Tengku Aishah Zaharah"] },
-    "phone": { "string": {} },
-    "email": {
-      "regexp": "#[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
-    },
-    "nric": { "string": {} }
-  }
+    "User": {
+        "name": {
+            "string": [
+                "Amy Winehouse",
+                "Amelia DeChart",
+                "Harrienath Pillay",
+                "Jayaseelan N.",
+                "John Doe",
+                "Joanne Chia",
+                "Tan Mei Li",
+                "Tengku Aishah Zaharah"
+            ]
+        },
+        "phone": {
+            "string": [
+                "012-345-6789",
+                "012-345-6789",
+                "012-345-6789",
+                "012-345-6789",
+                "012-345-6789",
+                "012-345-6789",
+                "012-345-6789",
+                "012-345-6789"
+            ]
+        },
+        "email": {
+            "string": [
+                "myemail@hotmail.com",
+                "myemail@hotmail.com",
+                "myemail@hotmail.com",
+                "myemail@hotmail.com",
+                "myemail@hotmail.com",
+                "myemail@hotmail.com",
+                "myemail@hotmail.com",
+                "myemail@hotmail.com"
+            ]
+        },
+        "nric": {
+            "string": [
+                "900101-10-1010",
+                "900101-10-1010",
+                "900101-10-1010",
+                "900101-10-1010",
+                "900101-10-1010",
+                "900101-10-1010",
+                "900101-10-1010",
+                "900101-10-1010"
+            ]
+        },
+        "deceased": {
+            "boolean": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ]
+        },
+        "index": {
+            "int": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                6,
+                7
+            ]
+        }
+    }
 }
