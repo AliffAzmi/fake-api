@@ -1,10 +1,5 @@
 {
   "User": {
-    "name": { "string": {} },
-    "phone": { "string": {} },
-    "email": { "string": {} },
-    "nric": { "string": {} },
-    "deceased": { "boolean": {} },
-    "index": { "int": {} }
+    "name": { "string": {} }
   }
 }
