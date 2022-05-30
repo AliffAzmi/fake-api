@@ -47,6 +47,18 @@
                 "900101-10-1010",
                 "900101-10-1010"
             ]
+        },
+        "deceased": {
+            "boolean": [
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true,
+                true
+            ]
         }
     }
 }
